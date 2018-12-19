@@ -111,6 +111,7 @@ double* algorithms::NNS(vector<vector<int>> OGMatrixScene, vector<vector<int>> O
                     }
                     else if(OGMatrixWally[i][j] == 255) {                           //Removing pure white from scan.
                         scoreStore += 0;
+                        continue;
                     }
                     else if(OGMatrixScene[pi][oj] == OGMatrixWally[i][j]) {         //If elements match, adding 1 to region scoreStore.
                         //cout << "Scene Row & Column: (" << p << ", " << o << ")   Wally Row & Column: (" << i << ", " << j << ")   Matrix values: (" << OGMatrixScene[pi][oj] << " : " << OGMatrixWally[i][j] << ")" << endl;
