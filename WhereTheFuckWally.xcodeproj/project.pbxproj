@@ -30,7 +30,6 @@
 /* Begin PBXFileReference section */
 		7B1C1B1D21C1A2C900F5F9CF /* NNSPrototype.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NNSPrototype.cpp; sourceTree = "<group>"; };
 		7B1C1B1E21C1A2C900F5F9CF /* NNSPrototype.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NNSPrototype.hpp; sourceTree = "<group>"; };
-		7B700E2C21B5CBD70059BE9F /* Wally_grey.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Wally_grey.txt; path = "../../Assessment Files/Wally_grey.txt"; sourceTree = "<group>"; };
 		AA849DDB21B1B14E00542DBB /* WhereTheFuckWally */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WhereTheFuckWally; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA849DDE21B1B14E00542DBB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AA849DE821B1B6E300542DBB /* refImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = refImage.cpp; sourceTree = "<group>"; };
@@ -41,7 +40,6 @@
 		AA849DEF21B1B70000542DBB /* matrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = matrix.hpp; sourceTree = "<group>"; };
 		AA849DF121B1B79B00542DBB /* baseImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = baseImage.cpp; sourceTree = "<group>"; };
 		AA849DF221B1B79B00542DBB /* baseImage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = baseImage.hpp; sourceTree = "<group>"; };
-		AA849DF721B1CD7400542DBB /* Cluttered_scene.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Cluttered_scene.txt; path = ../Cluttered_scene.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +56,6 @@
 		AA849DD221B1B14E00542DBB = {
 			isa = PBXGroup;
 			children = (
-				AA849DF421B1C44000542DBB /* Text Files */,
 				AA849DDD21B1B14E00542DBB /* WhereTheFuckWally */,
 				AA849DDC21B1B14E00542DBB /* Products */,
 			);
@@ -84,19 +81,10 @@
 				AA849DEF21B1B70000542DBB /* matrix.hpp */,
 				AA849DF121B1B79B00542DBB /* baseImage.cpp */,
 				AA849DF221B1B79B00542DBB /* baseImage.hpp */,
-				AA849DF721B1CD7400542DBB /* Cluttered_scene.txt */,
-				7B700E2C21B5CBD70059BE9F /* Wally_grey.txt */,
 				7B1C1B1D21C1A2C900F5F9CF /* NNSPrototype.cpp */,
 				7B1C1B1E21C1A2C900F5F9CF /* NNSPrototype.hpp */,
 			);
 			path = WhereTheFuckWally;
-			sourceTree = "<group>";
-		};
-		AA849DF421B1C44000542DBB /* Text Files */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Text Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
